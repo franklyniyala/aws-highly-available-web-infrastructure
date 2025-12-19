@@ -110,6 +110,9 @@ By completing this project, I gained practical experience in:
 
 ---
 
+# Architecture Diagram
+![Architecture Diagram](screenshots/architecture-diagram.png)
+
 # Author
 
 **Ekene Iyala Franklyn**
