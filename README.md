@@ -43,40 +43,53 @@ The goal of this project is to showcase hands-on experience with AWS compute, se
 
 # IAM Configuration
 
-* Created IAM users with policy
+* Created an IAM users with policy
+  ![IAM User with Policy](screenshots/IAM_user.png)
 
 * Created an IAM group with policy
+ ![IAM Group with Policy](screenshots/IAM_group.png)
 
 * Assigned least-privilege IAM policies
+![IAM User with Console Least Priviledge Access](screenshots/IAM_user_with_LPA.png)
 
 
 # EC2 Setup
 
 * Created an EC2 launch template
+![EC2 Template](screenshots/ec2_template.png)
 
-* Launched EC2 instances using Amazon Linux
+* Launched two EC2 instances using Amazon Linux
+![EC2 Instances](screenshots/ec2_instances.png)
 
 * Configured security groups to allow SSH access
+![Security Group](screenshots/security_group.png)
 
 
 # Auto Scaling Group
 
 * Created an Auto Scaling Group using the launch template
-* Defined minimum, maximum, and desired instance capacity
+* Defined minimum (2), maximum (4), and desired instance capacity (2)
 * Verified automatic instance replacement on failure
+![Auto-Scaling Group](screenshots/ASG.png)
+
 # Elastic Load Balancer
 
 * Created an Application Load Balancer
+![Elastic Load Balancer](screenshots/ELB.png)
 
 * Attached the Auto Scaling Group as a target
 * Verified traffic distribution across EC2 instances
+![Traffic Distribution 1](screenshots/ip_traffic1.png)
+![Traffic Distribution 2](screenshots/ip_traffic2.png)
 
 # Secure Server Access
 * Connected to EC2 instances using SSH via:
 
   * Local system terminal
+  ![Local Terminal SSH](screenshots/local_ssh.png)
   
   * AWS CloudShell
+  ![CloudShell SSH](screenshots/cloud_ssh.png)
   
 # Testing & Validation
 
